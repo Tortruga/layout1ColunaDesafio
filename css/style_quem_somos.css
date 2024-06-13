@@ -1,0 +1,16 @@
+/* Formatação das tabelas*/
+table{
+    width: 500px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-right: 20px;
+}
+
+table th{
+    background-color: #1867a9;
+    color: white;
+}
+
+table tr{
+    background-color: #fff;
+}

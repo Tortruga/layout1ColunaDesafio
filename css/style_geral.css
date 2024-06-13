@@ -1,0 +1,103 @@
+/*Zerar margem e espaçamento*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Configurações gerais*/
+header{
+    background: #1867a9;
+    text-align: center;
+}
+
+.centralizar{
+    text-align: center;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #dedee9;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px;
+}
+
+.ancoraForaDoHeader{
+    color: #1867a9;
+    font-size: 16px;
+}
+
+.ancoraForaDoHeader:hover{
+    text-decoration: underline;
+}
+
+.selecionado{
+    background-color: #39f;
+    padding: 12px 12px;
+    border-radius: 10px 20px;
+}
+
+header>nav>a:hover{
+    background-color: #39f;
+    padding: 9px 12px;
+    border-radius: 10px 20px;
+}
+
+h2{
+    text-align: center;
+    padding: 10px;
+    color: #1867a9;
+    border-bottom: 1px solid rgb(247, 222, 222);
+}
+
+.conteudoSeçao{
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: white;
+    text-align: justify;
+    line-height: 1.5;
+}
+
+main{
+    width: 920px;
+    margin: 0 auto;
+}
+
+p{
+    text-indent: 50px;
+}
+
+h1{
+    padding: 20px;
+    color: #1867a9;
+    border-bottom: 1px solid rgb(247, 222, 222);
+    text-align: center;
+}
+
+.negrito{
+    font-weight: bold;
+}
+
+.italico{
+    font-style: italic;
+}
+
+.centralizarRodape{
+    text-align: center;
+}
+
+.centralizarSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    background-color: #c0c0c0;
+    padding: 10px;
+}
+

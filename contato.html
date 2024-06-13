@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style_contato.css">
+    <link rel="stylesheet" href="css/style_geral.css">
+    <title>Etec Polivalente</title>
+</head>
+<body>
+    <header>
+        <div id="centralizar">
+            <img src="imagens/polivalente.png">
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="quem_somos.html">Quem somos</a>
+            <span class="selecionado"><a href="contato.html">Contato</a></span>
+            <a href="">Cursos</a>
+            <a href="">Downloads</a>
+            <a href="">Editais</a>
+            <a href="">Eleições</a>
+            <a href="">Horários</a>
+            <a href="">Prêmios</a>
+        </nav>
+    </header>
+    <main>
+        <div id="contatos">
+            <h1>Contatos</h1>
+            <br>
+            <p>Telefones: (19) 34684071 / 34681610 / 34681611
+                <br>
+                Endereço: Av. Nossa Sra. de Fátima, 567 - Vila Israel - Americana - SP, 13478-540
+            </p>
+        </div>
+        <div id="formulario">
+            <h1>Entrem em contato</h1>
+            <form method="POST">
+                <div class="formulario_campos">
+                    <label for="nome"><span class="negrito">Nome:</span></label>
+                    <input type="text" name="nome" id="nome" required>
+                    <br><br>
+                    <label for="email"><span class="negrito">Email:</span></label>
+                    <input type="text" name="email" id="email" required>
+                </div>
+                <div class="fomrulario_campos">
+                    <span class="negrito">Assunto:</span><br><br>
+                    <textarea name="assunto" id="assunto" cols="100" rows="10"></textarea>
+                </div>
+                <div class="centralizarSection">
+                    <button class="botao" type="submit">Enviar</button>
+                </div>
+            </form>
+        </div>
+        <div id="iframe_google_maps">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3679.8065066210224!2d-47.31690148531821!3d-22.735432185099175!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c89a2328b1cc89%3A0x9c221a3f4178ee42!2sEtec%20Polivalente%20de%20Americana!5e0!3m2!1spt-BR!2sbr!4v1617369220566!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </main>
+    <footer>
+        <div class="centralizar">
+            <img src="imagens/logo_poli.png" alt="">
+        </div>
+        <div class="centralizarRodape">
+            Av. Nossa Senhora de Fátima, 567 Americana - SP, CEP 13478-540  (19) 3468-4071 / 3468-1611 / 3468-1610
+        </div>
+        <div class="centralizarRodape">© 2005 - 2021 Etec Polivalente de Americana</div>
+    </footer>
+</body>
+</html>
